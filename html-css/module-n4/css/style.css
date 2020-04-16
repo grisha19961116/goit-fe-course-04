@@ -1,0 +1,98 @@
+body {
+  background-color: #f2f2f2;
+}
+.conteiner {
+  box-sizing: border-box;
+  width: 900px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  border: 0px;
+}
+.part {
+  display: inline-block;
+  width: 420px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.part:nth-last-of-type(even) {
+  margin-right: 56px;
+}
+
+.main-menu {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  border: 0px;
+}
+.link {
+  display: inline-block;
+  padding: 0px 0px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  margin-right: 102px;
+  margin-left: 0px;
+}
+.link:last-child {
+  margin-right: 160px;
+}
+.link:first-child {
+  margin-left: 160px;
+}
+
+.main-menu .link a:hover,
+.main-menu-link:focus {
+  color: #03a9f4;
+}
+
+.main-menu .link a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.part-img {
+  margin: 0px 0px 30px 0px;
+}
+
+.part-h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #b4ad9e;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  margin: 0px 0px 26px 0px;
+}
+.part-h2 {
+  font-size: 30px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  margin: 0px 0px 38px 0px;
+}
+.part-p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  margin: 0px 0px 0px 0px;
+}
+.partbutton {
+  display: block;
+  width: 163px;
+  height: 60px;
+  margin: 0px auto;
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  background-color: #ddddd7;
+  border: 1px solid #626262;
+}
