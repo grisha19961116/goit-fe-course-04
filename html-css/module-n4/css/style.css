@@ -1,3 +1,6 @@
+.clearfix {
+  overflow: auto;
+}
 body {
   width: 1170px;
   padding: 0;
@@ -16,26 +19,17 @@ body {
   padding: 0px;
 }
 
-.main-menu {
-  width: 612px;
+.main-nav ul {
   float: right;
   margin: 0;
   padding: 0px;
 }
-.clearfix {
-  overflow: auto;
-}
-
 .main-menu li {
   padding: 44px 0px;
   margin: 0px 34px 0px 0px;
   float: left;
   list-style-type: none;
 }
-.clearfix {
-  overflow: auto;
-}
-
 .main-menu li:last-child {
   margin: 0px 28px 0px 0px;
 }
@@ -61,10 +55,6 @@ body {
   margin: 0;
   padding: 37px 0px 37px 20px;
 }
-.clearfix {
-  overflow: auto;
-}
-
 .left-menu-a {
   font-size: 30px;
   letter-spacing: -1px;
@@ -90,10 +80,6 @@ body {
   margin: 0;
   padding: 0;
 }
-.clearfix {
-  overflow: auto;
-}
-
 .unit1 {
   font-size: 48px;
   letter-spacing: -1px;
@@ -147,6 +133,7 @@ body {
   font-family: "Roboto";
   font-weight: 900;
   text-align: start;
+  text-transform: uppercase;
 }
 
 .part:hover {
@@ -181,7 +168,7 @@ body {
 
 .conteiner2 {
   width: 1170px;
-  margin: 0;
+  margin: 0px 0px 80px 0px;
   padding: 0;
 }
 
@@ -206,16 +193,49 @@ body {
   margin: 30px auto 78px auto;
   padding: 0;
 }
-
+.unit2-h3 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+.unit2-h3::after {
+  display: block;
+  content: "";
+  width: 136px;
+  height: 3px;
+  background-color: #4ec6ab;
+  margin: 14px 0px 26px 0px;
+}
+.unit2-p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0px 0px 20px 0px;
+}
+.part2button {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-weight: 300;
+  text-align: center;
+  border-radius: 3px;
+  width: 159px;
+  height: 51px;
+  background-color: #4ec6ab;
+}
 .chapter {
   float: left;
   width: 350px;
   margin: 0px 30px 30px 0px;
 }
-.clearfix {
-  overflow: auto;
-}
-
 .chapter:first-of-type {
   margin-left: 30px;
 }
